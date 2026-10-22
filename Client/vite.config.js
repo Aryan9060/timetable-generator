@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://timetable-generator-sage.vercel.app/",
+        target: "https://timetable-generator-sage.vercel.app",
         changeOrigin: true,
       },
     },
