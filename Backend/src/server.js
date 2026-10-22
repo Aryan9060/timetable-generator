@@ -106,4 +106,4 @@ app.use(notFoundHandler);
 //! Global Error Handler - Must be last
 app.use(errorHandler);
 
-export { app };
+export default app ;
