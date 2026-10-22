@@ -96,6 +96,10 @@ app.get("/api/v1", (req, res) => {
   });
 });
 
+app.get("/", (req,res)=>{
+  res.send("Hello")
+})
+
 //! 404 Handler - Must be after all routes
 app.use(notFoundHandler);
 
